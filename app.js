@@ -46,10 +46,7 @@ ball
     },
     "<"
   )
-  .to(".red", { left: 200, duration: 1 })
-  .to(".green", { right: -200, duration: 1 }, "<")
-  .to(".blue", { right: 200, duration: 1 }, "<")
-  .to(".yellow", { left: -200, duration: 1 }, "<");
-
-ball.play();
-ball.repeat(-1);
+  .to(".red", { left: 200, duration: 0.7 })
+  .to(".green", { right: -200, duration: 0.7 }, "<")
+  .to(".blue", { right: 200, duration: 0.7 }, "<")
+  .to(".yellow", { left: -200, duration: 0.7 }, "<");
