@@ -1,5 +1,5 @@
 // PUT YOUR CODE HERE
-let ball = gsap.timeline({ pause: true });
+let ball = gsap.timeline({ repeat: -1 });
 
 ball
   .from(".red", { x: "-100vw", y: "-100vh", duration: 1 })
